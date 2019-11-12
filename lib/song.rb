@@ -54,6 +54,8 @@ class Song
   def self.create_from_filename(name)
     if self.name.includes?(".mp3")
     @@all << self.new_from_filename
+    end
   end
-end
+
+  
 end
