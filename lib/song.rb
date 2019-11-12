@@ -56,3 +56,4 @@ class Song
     @@all << self.new_from_filename
   end
 end
+end
